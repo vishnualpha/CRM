@@ -4,6 +4,7 @@ namespace CRM.Models
 {
     public class LoginModel
     {
+        //This is something to be done
         [Required(ErrorMessage = "Please Enter User Name")]
         [Display(Name = "Login")]
         public string UserName { get; set; }
